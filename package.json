@@ -6,7 +6,9 @@
   "author": "m <for_etc@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
