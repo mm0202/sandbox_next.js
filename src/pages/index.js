@@ -4,6 +4,9 @@ import Link from 'next/link'
 const Index = () => (
     <ul>
         <li>
+            <p>Hello Next.js</p>
+        </li>
+        <li>
             <Link href={"/about"}>
                 <a>About Page</a>
             </Link>
@@ -14,7 +17,9 @@ const Index = () => (
             </Link>
         </li>
         <li>
-            <p>Hello Next.js</p>
+            <Link href={"/about"}>
+                <button>Go to About Page</button>
+            </Link>
         </li>
     </ul>
 );
