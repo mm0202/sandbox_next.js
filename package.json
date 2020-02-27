@@ -1,0 +1,11 @@
+{
+  "name": "sandbox_next.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mm0202/sandbox_next.js.git",
+  "author": "m <for_etc@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.2"
+  }
+}
