@@ -5,7 +5,12 @@
   "repository": "https://github.com/mm0202/sandbox_next.js.git",
   "author": "m <for_etc@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next"
+  },
   "dependencies": {
-    "next": "^9.2.2"
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }
