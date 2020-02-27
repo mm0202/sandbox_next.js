@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 8000",
+    "start-port": "next start -p %PORT%",
+    "start-8000": "cross-env PORT=8000 npm run start-port",
+    "start-9000": "cross-env PORT=9000 npm run start-port"
   },
   "license": "ISC",
   "dependencies": {
