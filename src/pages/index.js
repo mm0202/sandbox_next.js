@@ -1,10 +1,9 @@
 import React from "react";
 import Link from 'next/link'
-import Header from "../components/Header";
+import Layout from "../components/MyLayout";
 
 const Index = () => (
-    <div>
-        <Header/>
+    <Layout>
         <ul>
             <li>
                 <p>Hello Next.js</p>
@@ -25,7 +24,7 @@ const Index = () => (
                 </Link>
             </li>
         </ul>
-    </div>
+    </Layout>
 );
 
 export default Index
