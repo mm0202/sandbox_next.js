@@ -1,0 +1,19 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "express-dev": "node server.js",
+    "express-build": "next build",
+    "express-start": "NODE_ENV=production node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
